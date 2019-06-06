@@ -17,11 +17,11 @@
     display: block;
     background: #B01302;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: auto;
     width: 120px;
     height: 120px;
     margin: auto;
     border: 2px solid white; }
     .jumbotron .lang-logo img {
-      max-width: 150%; }
+      max-width: 100%; }
 
