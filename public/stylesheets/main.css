@@ -17,7 +17,7 @@
     display: block;
     background: #B01302;
     border-radius: 50%;
-    overflow: auto;
+    overflow: visible;
     width: 120px;
     height: 120px;
     margin: auto;
