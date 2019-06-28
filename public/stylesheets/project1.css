@@ -39,4 +39,5 @@ body{
     left: 0;
     background-color: #111;
     opacity: 0.9;
+    overflow-x: hidden;
 }
