@@ -53,3 +53,13 @@ body{
     display: block;
     transition: 0.4s;
 }
+
+
+
+.side-nav .btn-close{
+    position: absolute;
+    top:0;
+    right: 20px;
+    font-size: 35px;
+    margin-left: 50px;
+}
