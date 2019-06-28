@@ -5,9 +5,9 @@ body{
 
 
 .navbar{
-    background-color: blue;
+    background-color: antiquewhite;
     overflow: hidden;
-    height: 63px;
+    height: 68px;
 }
 
 .navbar a{
