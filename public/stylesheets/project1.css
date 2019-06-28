@@ -16,4 +16,11 @@ body{
     display: block;
     color: #f2f2f2;
     padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar ul{
+    padding: 8px 0 0 0px;
+    list-style: circle;
 }
