@@ -25,3 +25,8 @@ body{
     padding: 8px 0 0 0px;
     list-style: none;
 }
+
+.navbar a:hover{
+    background-color:azure;
+    color: black;
+}
