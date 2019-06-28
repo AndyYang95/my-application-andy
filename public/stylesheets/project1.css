@@ -22,5 +22,5 @@ body{
 
 .navbar ul{
     padding: 8px 0 0 0px;
-    list-style: circle;
+    list-style: none;
 }
