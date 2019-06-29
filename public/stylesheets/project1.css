@@ -57,6 +57,7 @@ body{
 .side-nav a:hover{
     background-color: crimson;
     opacity: 0.9;
+    color: pink;
 }
 
 
