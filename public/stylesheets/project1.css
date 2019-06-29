@@ -51,7 +51,11 @@ body{
     font-size: 22px;
     color: white;
     display: block;
-    transition: 0.4s;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: darkorange;
 }
 
 
@@ -62,4 +66,12 @@ body{
     right: 10px;
     font-size: 35px;
     margin-left: 30px;
+}
+
+
+#main{
+    transition:margin-left 0.7s;
+    overflow: hidden;
+    padding: 20px;
+    
 }
