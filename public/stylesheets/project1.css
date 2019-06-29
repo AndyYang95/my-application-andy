@@ -75,5 +75,6 @@ body{
     transition:margin-left 0.7s;
     overflow: hidden;
     padding: 20px;
+    width: 100%;
     
 }
