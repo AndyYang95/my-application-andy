@@ -55,7 +55,8 @@ body{
 }
 
 .side-nav a:hover{
-    background-color: darkorange;
+    background-color: crimson;
+    opacity: 0.9;
 }
 
 
