@@ -97,7 +97,7 @@ body{
     }
 }
 
-@media(max-width: 500px){
+@media(min-width: 500px){
     .choice{
         font-size: 80px;
     }
