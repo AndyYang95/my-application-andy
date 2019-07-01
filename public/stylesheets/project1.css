@@ -74,6 +74,11 @@ body{
     background: var(--dark-color);
 }
 
+.choices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 
 
