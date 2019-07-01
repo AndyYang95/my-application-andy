@@ -44,6 +44,9 @@ body{
     border: none;
 }
 
+.restart-btn:hover{
+    background: yellow;
+}
 
 
 
