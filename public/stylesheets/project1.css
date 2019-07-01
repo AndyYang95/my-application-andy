@@ -186,9 +186,9 @@ body{
 
 @media(max-width: 668px){
     .navbar-nav{display: none}
-	#paper{font-size: 50px}
-	#scissors{font-size: 50px}
-	#rock{font-size: 50px}
+	#paper{font-size: 80px}
+	#scissors{font-size: 80px}
+	#rock{font-size: 80px}
 }
 
 @media(min-width: 668px){
