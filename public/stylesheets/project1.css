@@ -91,6 +91,20 @@ body{
 }
 
 
+/*視窗大小轉換與圖示大小改變*/
+@media(max-width: 1028px){
+    .choice{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 1020px){
+    .choice{
+        font-size: 150px;
+    }
+}
+
+
 
 
 
@@ -177,18 +191,6 @@ body{
 
 
 
-/*視窗大小轉換與圖示大小改變*/
-@media(max-width: 568px){
-    .choice{
-        font-size: 20px;
-    }
-}
-
-@media(min-width: 568px){
-    .choice{
-        font-size: 150px;
-    }
-}
 
 
 /*
