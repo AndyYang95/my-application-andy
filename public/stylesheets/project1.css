@@ -39,6 +39,9 @@ body{
     display: inline-block;
     background: var(--light-color);
     color: #333;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 
