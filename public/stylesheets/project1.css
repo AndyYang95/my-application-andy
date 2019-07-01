@@ -92,13 +92,7 @@ body{
 
 
 /*視窗大小轉換與圖示大小改變*/
-@media(max-width: 668px){
-    .choice{font-size: 20px}
-}
 
-@media(min-width: 668px){
-    .choice{font-size: 150px}
-}
 
 
 
@@ -189,15 +183,14 @@ body{
 
 
 
-/*
 
-@media(max-width: 568px){
+@media(max-width: 668px){
     .navbar-nav{display: none}
+	.choice{font-size: 20px}
 }
 
-@media(min-width: 568px){
-    /*.open-slide{display: none}
+@media(min-width: 668px){
+    .open-slide{display: none}
+	.choice{font-size: 180px}
 }
-
-*/
 
