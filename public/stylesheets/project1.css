@@ -26,14 +26,16 @@ body{
     list-style: none;
 }
 
+#open:hover{
+    color: crimson;
+}
+
 .navbar a:hover{
     background-color:azure;
     color: black;
 }
 
-#open:hover{
-    color: crimson;
-}
+
 
 .side-nav{
     height: 100%;
