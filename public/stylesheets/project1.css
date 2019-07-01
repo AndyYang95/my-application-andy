@@ -59,6 +59,21 @@ body{
     color: red;
 }
 
+.score{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.score p:first-child{
+    background: var(--primary-color);
+}
+
+.score p:last-child{
+    background: var(--dark-color);
+}
+
 
 
 
