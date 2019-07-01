@@ -77,6 +77,17 @@ body{
 .choices{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/*剪刀石頭布個別hover*/
+.choice{
+    cursor: pointer;
+}
+.choice:hover{
+    color: var(--primary-color);
 }
 
 
