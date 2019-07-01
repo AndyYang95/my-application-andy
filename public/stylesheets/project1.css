@@ -39,6 +39,7 @@ body{
     display: inline-block;
     background: var(--light-color);
     color: #333;
+    font-family: 'Barriecito' , cursive;
     cursor: pointer;
     outline: none;
     border: none;
