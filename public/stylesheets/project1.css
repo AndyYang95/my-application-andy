@@ -90,18 +90,7 @@ body{
     color: var(--primary-color);
 }
 
-/*視窗大小轉換與圖示大小改變*/
-@media(max-width: 568px){
-    .choice{
-        font-size: 20px;
-    }
-}
 
-@media(min-width: 568px){
-    .choice{
-        font-size: 150px;
-    }
-}
 
 
 
@@ -185,6 +174,22 @@ body{
     padding: 20px;
     width: 100%;
 }
+
+
+
+/*視窗大小轉換與圖示大小改變*/
+@media(max-width: 568px){
+    .choice{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 568px){
+    .choice{
+        font-size: 150px;
+    }
+}
+
 
 /*
 
