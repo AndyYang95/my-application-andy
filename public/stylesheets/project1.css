@@ -27,7 +27,7 @@ body{
 }
 
 #open:hover{
-    color: crimson;
+    background-color: darkred;
 }
 
 .navbar a:hover{
