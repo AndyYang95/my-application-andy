@@ -87,11 +87,11 @@ body{
     cursor: pointer;
 }
 .choice:hover{
-    color: var(--primary-color);
+    color: crimson;
 }
 
 
-/*視窗大小轉換與圖示大小改變*/
+
 
 
 
@@ -182,17 +182,17 @@ body{
 
 
 
-
+/*視窗大小轉換與圖示大小改變*/
 
 @media(max-width: 668px){
     .navbar-nav{display: none}
-	#paper{font-size: 20px}
-	#scissors{font-size: 20px}
-	#rock{font-size: 20px}
+	#paper{font-size: 50px}
+	#scissors{font-size: 50px}
+	#rock{font-size: 50px}
 }
 
 @media(min-width: 668px){
     .open-slide{display: none}
-	.choice{font-size: 180px}
+	
 }
 
