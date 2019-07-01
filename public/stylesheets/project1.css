@@ -1,6 +1,7 @@
 body{
     font-family: "Arial" , serif;
     background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 
@@ -28,6 +29,10 @@ body{
 .navbar a:hover{
     background-color:azure;
     color: black;
+}
+
+.open-slide:hover{
+    color: crimson;
 }
 
 .side-nav{
