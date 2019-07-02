@@ -10,10 +10,11 @@
     /*對話框遮罩螢幕*/
 }
 
-.modal-content{
+#result{
     background-attachment: white;
     text-align: center;
     margin: 12% auto;
     widows: 40%;
     border-radius: 10px;
+    padding: 3rem;
 }
