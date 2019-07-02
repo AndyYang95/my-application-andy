@@ -1,0 +1,19 @@
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0, 0.3);
+    /*對話框遮罩螢幕*/
+}
+
+.modal-content{
+    background-attachment: white;
+    text-align: center;
+    margin: 12% auto;
+    widows: 40%;
+    border-radius: 10px;
+}
