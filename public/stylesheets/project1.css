@@ -43,10 +43,12 @@ body{
     cursor: pointer;
     outline: none;
     border: none;
+    margin-bottom: 1.2rem;
+    border-radius: 10px; 
 }
 
 .restart-btn:hover{
-    background: yellow;
+    background: rgb(255, 0, 106);
 }
 
 .header{
