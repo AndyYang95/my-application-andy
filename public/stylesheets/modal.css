@@ -24,6 +24,10 @@
 
 
 .modal-content h1{
-    margin-bottom: 2rem;
-    color: blue;
+    margin-bottom: 1rem;
+}
+
+.modal-content p{
+    font-size: 1.3rem;
+    margin-top: 1rem;
 }
