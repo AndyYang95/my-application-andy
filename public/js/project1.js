@@ -12,7 +12,9 @@ const scoreboard={
 
 //PLAY GAME
 function play(e){
+    restart.style.display= 'inline-block';
     console.log(e.target.id);
+    const playerChoice= e.target.id;
 }
 
 //Event Listener
