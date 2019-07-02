@@ -91,6 +91,13 @@ body{
 }
 
 
+.text-win{
+    color: var(--win-color);
+}
+
+.text-lose{
+    color: var(--lose-color);
+}
 
 
 
