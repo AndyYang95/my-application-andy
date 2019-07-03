@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+
+:root{
+    --primary-color:#000;
+    --dark-color:#333333;
+    --light-color:#f4f4f4;
+    --lose-color:#dc3545;
+    --win-color:#28a745;
+    --modal-duration:0.8s;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: "Barriecito" , cursive;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.restart-btn{
+    padding: 0.4rem 1.3rem;
+    font-size: 1.2rem;
+    display: none;  /*hide it for the begining*/
+    background: var(--light-color);
+    color: #333;
+    font-family: 'Barriecito' , cursive;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 8px; 
+}
+
+.restart-btn:hover{
+    background: rgb(255, 0, 106);
+    color: #f2f2f2;
+    font-size: 1.25rem;
+}
+
+.header{
+    margin: 1.2rem 0;
+    text-align: center;
+}
+
+.header h1{
+    margin-bottom: 1rem;
+    color: red;
+}
+
+.score{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.3rem;
+    color: white;
+}
+
+.score p:first-child{
+    background: var(--primary-color);
+}
+
+.score p:last-child{
+    background: var(--dark-color);
+}
+
+.choices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/*剪刀石頭布個別hover*/
+.choice{
+    cursor: pointer;
+}
+.choice:hover{
+    color: blue;
+    font-size: 150px;
+}
+
+
+.text-win{
+    color: var(--win-color);
+}
+
+.text-lose{
+    color: var(--lose-color);
+}
+
+
+
+
+
+
+
+
+
+.navbar{
+    background-color: crimson;
+    overflow: hidden;
+    height: 63px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar ul{
+    margin: 8px 0 0 0px;
+    list-style: none;
+}
+
+#open:hover{
+    background-color: darkred;
+}
+
+.navbar a:hover{
+    background-color:azure;
+    color: black;
+}
+
+
+
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+
+
+.side-nav a{
+    padding: 10px 20px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: pink;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+
+.side-nav .btn-close{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.modal .btn-close{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+
+#main{
+    transition:margin-left 0.7s;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+
+
+
+
+/*視窗大小轉換與圖示大小改變*/
+
+@media(max-width: 668px){
+    .navbar-nav{display: none}
+	#paper{font-size: 80px}
+	#scissors{font-size: 80px}
+	#rock{font-size: 80px}
+}
+
+@media(min-width: 668px){
+    .open-slide{display: none}
+	
+}
+
