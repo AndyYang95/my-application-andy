@@ -101,7 +101,7 @@ function getWinner(p, c){
 //clear modal
 function clearModal(e){
     if(e.target == modal){
-    result.style.display='none';
+    modal.style.display='none';
     }
 }
 
