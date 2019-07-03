@@ -100,9 +100,9 @@ function getWinner(p, c){
 
 //clear modal
 function clearModal(e){
-    if(e.target == modal){
+    
     modal.style.display='none';
-    }
+    
 }
 
 
