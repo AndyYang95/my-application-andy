@@ -128,5 +128,6 @@ function clearScore(e){
 
 //Event Listener
 choices.forEach(ch => ch.addEventListener('click', play));
-window.addEventListener('click touchstart', clearModal);
-restart.addEventListener('click touchstart', clearScore);
+window.addEventListener('click', clearModal);
+restart.addEventListener('click', clearScore);
+window.addEventListener('touchstart', clearModal);
