@@ -19,8 +19,13 @@ function play(e){
 
     //see choices from both sides
     console.log('player:' ,playerChoice, 'v.s. computer:', computerChoice );
+    //幫電腦翻譯
+    var p;
+    if(playerChoice==='scissors'){p='剪刀';}
+    else if(playerChoice==='rock'){p='石頭';}
+    else if(playerChoice==='paper'){p='布';}
 
-    const winner= getWinner(playerChoice, computerChoice);
+    const winner= getWinner(p, computerChoice);
     showWinner(winner, computerChoice);
 
 }
