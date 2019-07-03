@@ -103,6 +103,10 @@ function clearModal(e){
     }
 }
 
+function closeModal(){
+    modal.style.display='none';
+}
+
 
 //Restart clear score
 function clearScore(e){
@@ -117,6 +121,8 @@ function clearScore(e){
         `;
     }
 }
+
+
 
 
 
