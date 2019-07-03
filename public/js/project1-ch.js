@@ -42,11 +42,12 @@ function getCompChoice(){
 
 // SHOW WINNER
 function showWinner(winner, computerChoice){
+    var c;
     if(computerChoice==='剪刀'){
-        const c='scissors';
+        c='scissors';
     }else if (computerChoice==='石頭'){
         c='rock';
-    }else{
+    }else if(computerChoice==='布'){
         c='paper';
     }
 
@@ -67,7 +68,7 @@ function showWinner(winner, computerChoice){
         result.innerHTML=`
         <h1 class="text-lose">嗚嗚你輸了...</h1>
         <i class="fas fa-hand-${c} fa-10x"></i>
-        <p>電腦出了<strong>${computerChoice}</strong>！</p>
+        <p>電腦出了 <strong>${computerChoice}</strong>！</p>
         `;
     } else{
         //DRAW
