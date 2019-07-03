@@ -63,6 +63,7 @@ function showWinner(winner, computerChoice){
     } else{
         //DRAW
         result.innerHTML=`
+        <a href="#" class="btn-close" onclick="closeModal()">&times;</a>
         <h1>It's A Draw!</h1>
         <i class="fas fa-hand-${computerChoice} fa-10x"></i>
         <p>Computer also chose <strong>${computerChoice}</strong>!</p>

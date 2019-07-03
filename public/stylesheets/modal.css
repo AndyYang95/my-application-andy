@@ -36,7 +36,7 @@
 }
 
 
-.modal .btn-close{
+.modal .modal-content .btn-close{
     position: absolute;
     top:0;
     right: 10px;
