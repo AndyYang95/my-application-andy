@@ -76,8 +76,6 @@ function showWinner(winner, computerChoice){
     //歸納完後秀modal
     modal.style.display=' block';
 
-
-
 }
 
 
@@ -100,9 +98,9 @@ function getWinner(p, c){
 
 //clear modal
 function clearModal(e){
-    
+    if(e.target==modal){
     modal.style.display='none';
-    
+    }
 }
 
 
