@@ -42,13 +42,22 @@ function getCompChoice(){
 
 // SHOW WINNER
 function showWinner(winner, computerChoice){
+    if(computerChoice==='剪刀'){
+        const c='scissors';
+    }else if (computerChoice==='石頭'){
+        c='rock';
+    }else{
+        c='paper';
+    }
+
+
     if(winner==='player'){
         //Incr player score
         scoreboard.player++;
         //Show modal result
         result.innerHTML=`
         <h1 class="text-win">恭喜你贏了!</h1>
-        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <i class="fas fa-hand-${c} fa-10x"></i>
         <p>電腦出了 <strong>${computerChoice}</strong>...</p>
         `;
     }else if(winner==='comp'){
@@ -57,14 +66,14 @@ function showWinner(winner, computerChoice){
         //Show modal result
         result.innerHTML=`
         <h1 class="text-lose">嗚嗚你輸了...</h1>
-        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <i class="fas fa-hand-${c} fa-10x"></i>
         <p>電腦出了<strong>${computerChoice}</strong>！</p>
         `;
     } else{
         //DRAW
         result.innerHTML=`
         <h1>沒輸沒贏。</h1>
-        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <i class="fas fa-hand-${c} fa-10x"></i>
         <p>電腦也出了 <strong>${computerChoice}</strong>!</p>
         `;
     }
