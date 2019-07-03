@@ -36,13 +36,6 @@
 }
 
 
-.modal .modal-content .btn-close{
-    position: absolute;
-    top:0;
-    right: 10px;
-    font-size: 30px;
-    margin-left: 30px;
-}
 
 
 @keyframes modalopen{
