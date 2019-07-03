@@ -183,6 +183,14 @@ body{
     margin-left: 30px;
 }
 
+.modal .btn-close{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
 
 #main{
     transition:margin-left 0.7s;
