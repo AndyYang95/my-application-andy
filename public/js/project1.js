@@ -98,5 +98,31 @@ function getWinner(p, c){
 }
 
 
+//clear modal
+function clearModal(e){
+    if(e.target == modal){
+    result.style.display='none';
+    }
+}
+
+
+//Restart clear score
+function clearScore(e){
+    if(e.target== restart){
+        scoreboard.player=0;
+        scoreboard.computer=0;
+
+        //前端顯示
+        score.innerHTML=`
+        <p>Player: 0</p>
+        <p>Computer: 0</p>
+        `;
+    }
+}
+
+
+
 //Event Listener
 choices.forEach(ch => ch.addEventListener('click', play));
+window.addEventListener('click', clearModal);
+restart.addEventListener('click', clearScore);
