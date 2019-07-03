@@ -19,6 +19,10 @@ function play(e){
 
     //see choices from both sides
     console.log('player:' ,playerChoice, 'v.s. computer:', computerChoice );
+
+    const winner= getWinner(playerChoice, computerChoice);
+    showWinner(winner, computerChoice);
+
 }
 
 //Get Computer Choice
@@ -31,6 +35,65 @@ function getCompChoice(){
         return 'paper';
     } else{
         return 'scissors';
+    }
+}
+
+
+
+// SHOW WINNER
+function showWinner(winner, computerChoice){
+    if(winner==='player'){
+        //Incr player score
+        scoreboard.player++;
+        //Show modal result
+        result.innerHTML=`
+        <h1 class="text-win">YOU WON!</h1>
+        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <p>Computer chose <strong>${computerChoice}</strong>...</p>
+        `;
+    }else if(winner==='comp'){
+        //Incr comp score
+        scoreboard.computer++;
+        //Show modal result
+        result.innerHTML=`
+        <h1 class="text-lose">You lost...</h1>
+        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <p>Computer chose <strong>${computerChoice}</strong>!</p>
+        `;
+    } else{
+        //DRAW
+        result.innerHTML=`
+        <h1>It's A Draw!</h1>
+        <i class="fas fa-hand-${computerChoice} fa-10x"></i>
+        <p>Computer also chose <strong>${computerChoice}</strong>!</p>
+        `;
+    }
+    //SHOW SCORE
+    score.innerHTML= `
+    <p>Player: ${scoreboard.player}</p>
+    <p>Computer: ${scoreboard.computer}</p>`;
+
+    //歸納完後秀modal
+    modal.style.display=' block';
+
+
+
+}
+
+
+//Get winner
+function getWinner(p, c){
+    if(p===c){
+        return 'draw';
+    }else if(p==='rock'){
+        if(c==='scissors'){return 'player';}
+        if(c==='paper'){return 'comp';}
+    }else if(p==='scissors'){
+        if(c==='paper'){return 'player';}
+        if(c==='rock'){return 'comp';}
+    }else{ // p===paper
+        if(c==='rock'){return 'player';}
+        if(c==='scissors'){return 'comp';}
     }
 }
 
