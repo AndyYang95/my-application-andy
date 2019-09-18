@@ -60,7 +60,8 @@ body{
 
 .header h1{
     margin-bottom: 1rem;
-    color: red;
+    color: #FF7733;
+	font-size: 5rem;
 }
 
 .score{
