@@ -71,6 +71,13 @@ body{
     color: white;
 }
 
+.images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 1.3rem;
+    color: white;
+}
+
 .score p:first-child{
     background: var(--primary-color);
 }
