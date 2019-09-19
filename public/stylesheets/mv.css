@@ -213,6 +213,7 @@ body{
     background-color: #FFC733;
     overflow: hidden;
     height: 75px;
+	float: center;
 }
 
 #contact-btn{
