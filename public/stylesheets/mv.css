@@ -218,7 +218,6 @@ body{
 
 .footer .contact-btn{
 	position: absolute;
-	top: 50%;
 	display: block;  /*block*/
     color: white;
     padding: 16px 32px;
