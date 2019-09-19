@@ -123,7 +123,7 @@ body{
 .navbar{
     background-color: #FF8633;
     overflow: hidden;
-    height: 65px;
+    height: 63px;
 }
 
 .navbar a{
@@ -213,6 +213,15 @@ body{
     background-color: #FFC733;
     overflow: hidden;
     height: 75px;
+}
+.footer a{
+    float: center;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 
