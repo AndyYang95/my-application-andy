@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
 :root{
     --primary-color:#000;
@@ -18,7 +18,7 @@
 
 
 body{
-    font-family: "Arial" , cursive;
+    font-family: 'Titillium Web', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -39,7 +39,7 @@ body{
     display: none;  /*hide it for the begining*/
     background: var(--light-color);
     color: #333;
-    font-family: 'Barriecito' , cursive;
+    font-family: 'Titillium Web', sans-serif;
     cursor: pointer;
     outline: none;
     border: none;
