@@ -213,7 +213,6 @@ body{
     background-color: #FFC733;
     overflow: hidden;
     height: 75px;
-	float: center;
 }
 
 #contact-btn{
@@ -223,15 +222,14 @@ body{
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
-	
 	background-color: #FFB433; 
     color: white; 
-    border: 3px solid white;
+    border: 2.5px solid white;
 }
 
 
