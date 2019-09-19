@@ -214,14 +214,15 @@ body{
 .projects{
 	margin-top: 2rem;
 	margin-bottom:2rem;
+	text-align: left;
 }
 
-.projects h2{
+.projects h1{
 	margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
 }
 
-.projects h3{
+.projects h2{
 	margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
 	font-weight: normal;
