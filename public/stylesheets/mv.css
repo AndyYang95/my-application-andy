@@ -214,32 +214,30 @@ body{
     overflow: hidden;
     height: 75px;
 }
+
 #contact-btn{
     float: center;
-    border: none;
+	display: block;  /*block*/
     color: white;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display:block;  /*block*/
     font-size: 16px;
     margin: 4px 2px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
     cursor: pointer;
+	
+	background-color: #FFB433; 
+    color: white; 
+    border: 3px solid white;
 }
 
-
-#contact-btn{
-  background-color: #FFB433; 
-  color: black; 
-  border: 2px solid white;
-}
 
 
 #contact-btn:hover{
-  background-color: #FFB433;
-  color: white;
+  background-color: #f4f4f4;
+  color: black;
 }
 
 
