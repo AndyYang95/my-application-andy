@@ -213,9 +213,11 @@ body{
     background-color: #FFC733;
     overflow: hidden;
     height: 75px;
+	text-align: center;
 }
 
-.footer button{
+.footer .contact-btn{
+	position: absolute;
     float: center;
 	display: block;  /*block*/
     color: white;
