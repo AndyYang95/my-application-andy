@@ -222,7 +222,7 @@ body{
 
 
 .footer{
-    background-color: #FFC733;
+    background-color: #FFA533;
     overflow: hidden;
     height: 200px;
 	text-align: center;
@@ -230,8 +230,8 @@ body{
 
 .footer h3{
 	color: #f4f4f4;
-	margin-bottom: 0.5rem;
-	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 2rem;
 	font-weight: normal;
 }
 
@@ -246,7 +246,7 @@ body{
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.25s;
     cursor: pointer;
-	background-color: #FFC733;
+	background-color: #FFA533;
     color: white; 
     border: 3px solid white;
 	font-family: 'Titillium Web', sans-serif;
@@ -269,7 +269,7 @@ body{
 
 .back-to-home .back-btn{
 	display: inline-block;  /*block*/
-    color: #FFC733;
+    color: #FFA533;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -286,6 +286,7 @@ body{
 
 .back-to-home .back-btn:hover{
 	color: black;
+	font-weight: bold;
 }
 
 
