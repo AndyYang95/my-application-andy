@@ -328,8 +328,8 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
-  opacity: 0.8;
+  border: 1px solid #FFA533;
+  opacity: 0.9;
 }
 
 div.gallery img {
@@ -348,7 +348,7 @@ div.desc {
 
 .responsive {
   padding: 0 6px;
-  float: left;
+  float: center;
   width: 24.99999%;
 }
 
