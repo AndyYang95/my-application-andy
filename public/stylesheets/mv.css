@@ -212,13 +212,13 @@ body{
 .footer{
     background-color: #FFC733;
     overflow: hidden;
-    height: 100px;
+    height: 120px;
 	text-align: center;
 }
 
-.footer h2{
+.footer h4{
 	color: #f4f4f4;
-	margin-bottom: 0.1rem;
+	margin-bottom: 0.2rem;
 }
 
 .footer .contact-btn{
