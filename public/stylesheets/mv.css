@@ -278,6 +278,8 @@ body{
     transition-duration: 0.25s;
     cursor: pointer; 
 	font-family: 'Titillium Web', sans-serif;
+	background-color: Transparent;
+	border:none;
 }
 
 .back-to-home .back-btn:hover{
