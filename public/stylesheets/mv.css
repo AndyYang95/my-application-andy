@@ -215,7 +215,7 @@ body{
     height: 75px;
 }
 
-#contact-btn{
+.footer .contact-btn{
     float: center;
 	display: block;  /*block*/
     color: white;
@@ -235,7 +235,7 @@ body{
 
 
 
-#contact-btn:hover{
+.footer .contact-btn:hover{
   background-color: #f4f4f4;
   color: black;
 }
