@@ -218,7 +218,8 @@ body{
 
 .footer h4{
 	color: #f4f4f4;
-	margin-bottom: 0.2rem;
+	margin-bottom: 0.5rem;
+	font-weight: normal;
 }
 
 .footer .contact-btn{
