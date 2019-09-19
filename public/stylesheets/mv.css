@@ -119,8 +119,7 @@ body{
     background-color: #FF8633;
     overflow: hidden;
     height: 63px;
-	position: fixed; /* Set the navbar to fixed position */
-	width: 100%;
+
 }
 
 .navbar a{
