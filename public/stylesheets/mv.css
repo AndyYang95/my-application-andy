@@ -216,7 +216,6 @@ body{
 }
 #contact-btn{
     float: center;
-    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -232,9 +231,9 @@ body{
 
 
 #contact-btn{
-  background-color: white; 
+  background-color: #FFB433; 
   color: black; 
-  border: 2px solid #FFB433;
+  border: 2px solid white;
 }
 
 
