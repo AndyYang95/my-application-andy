@@ -72,49 +72,6 @@ body{
 	
 }
 
-.score{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 1.3rem;
-    color: white;
-}
-
-
-
-.score p:first-child{
-    background: var(--primary-color);
-}
-
-.score p:last-child{
-    background: var(--dark-color);
-}
-
-.choices{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    margin-top: 5rem;
-    text-align: center;
-}
-
-/*剪刀石頭布個別hover*/
-.choice{
-    cursor: pointer;
-}
-.choice:hover{
-    color: #FF7733;
-    font-size: 150px;
-}
-
-
-.text-win{
-    color: var(--win-color);
-}
-
-.text-lose{
-    color: var(--lose-color);
-}
-
 
 
 
@@ -232,20 +189,6 @@ h2{
 }
 
 
-#t{    /*Unordered list properties*/
-	margin-left: 20px;
-	margin-bottom: 5rem;
-}
-
-
-.test{
-	text-align:left;
-}
-
-.projects-title{
-	text-align: left;
-}
-
 
 
 .footer{
@@ -332,70 +275,3 @@ h2{
     .open-slide{display: none}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #FFA533;
-  opacity: 0.9;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-  margin-bottom:1rem;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
