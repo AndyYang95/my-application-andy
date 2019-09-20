@@ -201,11 +201,11 @@ h2{
 .footer h3{
 	color: #f4f4f4;
 	margin-bottom: 0.8rem;
-	margin-top: 0.1rem;
+	margin-top: 0.3rem;
 	font-weight: normal;
 }
 
-#f-h3-1{font-weight: bold; font-size:1.6rem; margin-bottom:0.1rem;}
+#f-h3-1{font-weight: bold; font-size:1.6rem; margin-top:2rem;}
 
 
 .footer .contact-btn{
