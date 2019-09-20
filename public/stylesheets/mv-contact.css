@@ -200,10 +200,13 @@ h2{
 
 .footer h3{
 	color: #f4f4f4;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.8rem;
 	margin-top: 2rem;
 	font-weight: normal;
 }
+
+#f-h3-1{font-weight: bold; font-size:2rem;}
+
 
 .footer .contact-btn{
 	display: inline-block;  /*block*/
