@@ -126,7 +126,6 @@ body{
     background-color: #FF8633;
     overflow: hidden;
     height: 63px;
-
 }
 
 .navbar a{
@@ -216,7 +215,7 @@ body{
 	margin-bottom:2rem;
 	text-align: left;
 	background-color: #FFF5E4;
-	width: 100%;
+	max-width: 2000px;
 }
 
 h1{
