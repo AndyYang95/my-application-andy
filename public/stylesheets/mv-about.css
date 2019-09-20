@@ -58,10 +58,10 @@ body{
     text-align: left;
 }
 
-.header h1{
-    margin-bottom: 0.2rem;
+#top{
+    margin-bottom: 0.3rem;
     color: #FF7733;
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 
