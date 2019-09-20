@@ -60,7 +60,7 @@ body{
 }
 
 #top{
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
     color: #FF7733;
 	font-size: 3rem;
 }
@@ -212,8 +212,8 @@ body{
 
 
 .projects-img{
-	margin-top: 0.05rem;
-	margin-bottom:2rem;
+	margin-top: 0rem;
+	margin-bottom:0rem;
 	padding-top: 2rem;
 	text-align: left;
 	background-color: #FFF5E4;
