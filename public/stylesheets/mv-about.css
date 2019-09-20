@@ -232,14 +232,14 @@ h2{
 }
 
 
-#t{
+#t{    /*Unordered list properties*/
 	margin-left: 20px;
+	margin-bottom: 5rem;
 }
 
 
 .test{
 	text-align:left;
-	margin-bottom: 5rem;
 }
 
 .projects-title{
