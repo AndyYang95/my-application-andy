@@ -211,8 +211,9 @@ body{
 
 
 .projects{
-	margin-top: 2rem;
+	margin-top: 0.1rem;
 	margin-bottom:2rem;
+	padding-top: 2rem;
 	text-align: left;
 	background-color: #FFF5E4;
 	max-width: 2000px;
@@ -237,6 +238,11 @@ h2{
 
 .test{
 	text-align:left;
+}
+
+.projects-title{
+	text-align: left;
+	margin-bottom: 0.1rem;
 }
 
 
