@@ -185,7 +185,7 @@
 		var to= "a60803ndy@gmail.com";
 		var first_name= fname.value;
 		var last_name= lname.value;
-		var email= email.value;
+		var e= email.value;
 		
 		var industry= industry.value;
 		var subject= subject.value;
@@ -194,7 +194,7 @@
 		
 		var body=  ""+message+ "%0A%0A%0A";
 		body+= "From: "+ first_name+" "+last_name+"%0A";
-		body+= "Email: "+email;
+		body+= "Email: "+e;
 		mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
         mailTo.click();
 		alert(body);
