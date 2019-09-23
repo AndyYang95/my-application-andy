@@ -45,7 +45,7 @@ html, body{
 	height:1000px;
 	width:100%;
 	margin: auto;
-	
+	background-image: url('/land.jpg') no-repeat 50% 50%;
 }
 
 
