@@ -264,7 +264,9 @@ h2{
 
 .contact_form{
 	text-align: left;
-	font-size: 1rem;
+}
+.contact_form p{
+	font-size: 1.5rem;
 }
 
 
