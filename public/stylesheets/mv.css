@@ -39,6 +39,7 @@ body{
 	height:700px;
 	width:100%;
 	margin: auto;
+	margin-top:0;
 	background-image: url('/land.jpg');
 }
 
