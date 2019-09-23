@@ -26,12 +26,7 @@ html, body{
 	width: 100%;
 }
 
-.intro{
-	height:100%;
-	width:100%;
-	margin: auto;
-	background-image:url(https://static.pexels.com/photos/26206/pexels-photo.jpg) no-repeat 50% 50%;
-}
+
 
 
 
@@ -52,6 +47,20 @@ body{
     color: #333;
     overflow-x: hidden;
 }
+
+
+
+
+.intro{
+	height:100%;
+	width:100%;
+	margin: auto;
+	background-image:url(https://static.pexels.com/photos/26206/pexels-photo.jpg) no-repeat 50% 50%;
+}
+
+
+
+
 
 .container{
     max-width: 1100px;
