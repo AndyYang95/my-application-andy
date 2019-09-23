@@ -305,12 +305,11 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+.contact_form {
   border-radius: 5px;
   background-color: #F2F2F2;
   padding: 20px;
-  border-color: #CCCCCC;
-  border: 2px solid #CCCCCC;
+ 
 }
 
 .col-25 {
