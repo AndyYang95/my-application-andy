@@ -265,7 +265,7 @@ h2{
 .contact_form{
 	text-align: left;
 }
-.contact_form .row p{
+.contact_form .row .col-25 label{
 	font-size: 1.3rem;
 }
 
