@@ -188,14 +188,14 @@
 		var e= email.value; 
 		
 		
-		var subject= subject.value;
+		var sbj= subject.value;
 		var message= msg.value;
 		
 		
 		var body=  ""+message+ "%0A%0A%0A";
 		body+= "From: "+ first_name+" "+last_name+"%0A";
 		body+= "Email: "+e;
-		mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+		mailTo.href="mailto:"+to+"?subject="+sbj+"&body="+body;
         mailTo.click();
 		alert(body);
 	}
