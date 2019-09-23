@@ -310,6 +310,7 @@ input[type=submit]:hover {
   background-color: #F2F2F2;
   padding: 20px;
   border-color: #CCCCCC;
+  border: 2px solid #CCCCCC;
 }
 
 .col-25 {
