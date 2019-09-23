@@ -81,6 +81,14 @@
   </div>
   <div class="row">
     <div class="col-25">
+      <label for="email">Your Email </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your Email..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
       <label for="industry">Industry </label>
     </div>
     <div class="col-75">
@@ -90,6 +98,14 @@
         <option value="land_developer">Land Developer</option>
 		<option value="architecture">Architecture</option>
       </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject </label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Message Subject"></textarea>
     </div>
   </div>
   <div class="row">
@@ -166,8 +182,20 @@
 	function submitHandler(){
 		
 		var to= "a60803ndy@gmail.com";
-		var name= fname.value;
-		alert("Hello "+name);
+		var first-name= fname.value;
+		var last-name= lname.value;
+		var email= email.value;
+		
+		var industry= industry.value;
+		var subject= subject.value;
+		var message= msg.value;
+		
+		
+		var body=  ""+message+ "%0A%0A%0A";
+		body+= "From: "+ first-name+" "+last-name+"%0A";
+		body+= "Email: "+email;
+		mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+        mailTo.click();
 	}
     
 </script>
