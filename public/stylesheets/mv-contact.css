@@ -265,8 +265,21 @@ h2{
 .contact_form{
 	text-align: left;
 }
-.contact_form p{
-	font-size: 1.5rem;
+.contact_form .row p{
+	font-size: 1.3rem;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }
 
 
