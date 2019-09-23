@@ -42,10 +42,9 @@ html, body{
 
 
 .intro{
-	height:800px;
+	height:700px;
 	width:100%;
 	margin: auto;
-	margin-top:0;
 	background-image: url('/land.jpg');
 }
 
@@ -82,7 +81,7 @@ html, body{
 }
 
 .header{
-    margin: 1.2rem 0;
+    margin: 3rem 0;
     text-align: center;
 }
 
