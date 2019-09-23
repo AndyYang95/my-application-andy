@@ -324,6 +324,10 @@ body{
 	#paper{font-size: 80px}
 	#scissors{font-size: 80px}
 	#rock{font-size: 80px}
+	
+	
+	
+	.intro{height:50%}
 }
 
 @media(min-width: 668px){
