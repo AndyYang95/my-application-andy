@@ -182,8 +182,8 @@
 	function submitHandler(){
 		
 		var to= "a60803ndy@gmail.com";
-		var first-name= fname.value;
-		var last-name= lname.value;
+		var first_name= fname.value;
+		var last_name= lname.value;
 		var email= email.value;
 		
 		var industry= industry.value;
@@ -192,7 +192,7 @@
 		
 		
 		var body=  ""+message+ "%0A%0A%0A";
-		body+= "From: "+ first-name+" "+last-name+"%0A";
+		body+= "From: "+ first_name+" "+last_name+"%0A";
 		body+= "Email: "+email;
 		mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
         mailTo.click();
