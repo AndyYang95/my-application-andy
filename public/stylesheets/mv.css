@@ -461,7 +461,7 @@ div.desc {
 
 /* Global Styling */
 
- a{
+ .sp{
     display: none;
     font-size: 35px;
     color: #ffffff !important;
