@@ -381,7 +381,7 @@ body{
 
 
 div.gallery {
-  border: 0px solid #F4F4F4;
+  border: 1px solid #F4F4F4;
 }
 
 div.gallery:hover {
