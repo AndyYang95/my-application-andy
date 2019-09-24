@@ -515,22 +515,7 @@ navx {
 .bg-six {background-image: url(http://blog.whitepages.com/wp-content/uploads/2015/04/san-franc.jpg);}
 
 
-a1 {
-    display: none;
-    font-size: 35px;
-    color: #ffffff !important;
-    font-family: sans-serif;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    cursor: pointer;
-    /*text-decoration: none;*/
-}
+
 
 .parent:hover .child, .parent:focus .child {
     -ms-transform: scale(1.2);
