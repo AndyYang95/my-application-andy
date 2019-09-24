@@ -494,7 +494,7 @@ div.desc {
     width: 45%;
     margin: 20px;
     height: 300px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     overflow: hidden;
     position: relative;
     float: left;
