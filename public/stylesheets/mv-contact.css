@@ -359,7 +359,7 @@ input[type=button]:hover {
 	
 	#map{
 		width:100%;
-		height:auto;
+		height:80%;
 		float:left;
 		}
 }
