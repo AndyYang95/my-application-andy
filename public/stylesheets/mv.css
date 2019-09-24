@@ -36,8 +36,8 @@ body{
 
 
 .intro{
-	height:700px;
-	width:100%;
+	height:auto;
+	width:auto;
 	margin: auto;
 	margin-top:0;
 	background-image: url('/house.jpg');
