@@ -483,6 +483,7 @@ div.desc {
     display: block;
     margin: 0 auto;
     position: relative;
+	margin-bottom: 2rem;
 }
 
 .slides * {
