@@ -72,12 +72,7 @@ body{
     text-align: center;
 }
 
-.intro .header h1{
-    margin-bottom: 0.1rem;
-	margin-top:0.3rem;
-    color: #f4f4f4;
-	font-size: 4.8rem;
-}
+
 
 .score{
     display: grid;
@@ -233,15 +228,23 @@ body{
 
 .intro .inner{
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align:middle;
 	width: 100%;
 	max-width: none;
 }
 .content{
 	max-width: 500px;
 	margin: 0 auto;
-	text-align: auto;
+	text-align: center;
 }
+.intro .inner .content h1{
+    margin-bottom: 0.15rem;
+	margin-top: 1rem;
+    color: #f4f4f4;
+	font-size: 4.8rem;
+	font-weight: bold;
+}
+
 
 
 
