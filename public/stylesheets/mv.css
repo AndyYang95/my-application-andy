@@ -388,9 +388,9 @@ body{
        
 .projects .col-lg-3{
     text-align: center;
-    height: 100px;
+    height: 150px;
     background-color: #f4f4f4;
-    border: solid white 2px;
+    border: solid #F2F2F2 2px;
 	padding: 5px;
 }
 
