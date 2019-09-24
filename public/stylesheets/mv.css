@@ -255,6 +255,7 @@ body{
 .projects h2{
 	margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
+	font-weight: bold;
 }
 
 .projects h3{
