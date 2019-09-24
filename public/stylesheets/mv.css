@@ -376,7 +376,7 @@ body{
 .c2{
     background-color:aliceblue;
     padding: 5px;
-    margin: 0 auto;
+    margin: 1 auto;
     width: 100%;
     height: auto;
 }
@@ -387,7 +387,7 @@ body{
     height: 180px;
     background-color: #f4f4f4;
     border: solid #F2F2F2 2px;
-	padding: 2px;
+	padding: 8px;
 }
 
 .projects .col-lg-3:hover{
