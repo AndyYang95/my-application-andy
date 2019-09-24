@@ -461,14 +461,21 @@ div.desc {
 
 /* Global Styling */
 
-navx {
-    background-color: #34495e;
-    height: 80px;
-        position: fixed;
-        width: 100vw;
-        top: 0;
-        z-index: 999;
-}
+ a{
+    display: none;
+    font-size: 35px;
+    color: #ffffff !important;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+ }
 
 #logo {height: 80px; margin-left: 20px;}
 
