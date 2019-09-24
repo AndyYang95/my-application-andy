@@ -214,7 +214,7 @@ body{
 	display: table;
 	top:0;
 	background-size:cover;
-	padding-top: 0px;
+	margin-top: -35px;
 }
 
 .intro .inner{
