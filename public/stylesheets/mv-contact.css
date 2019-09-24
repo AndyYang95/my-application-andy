@@ -355,6 +355,8 @@ input[type=button]:hover {
 /*視窗大小轉換與圖示大小改變*/
 
 @media(max-width: 668px){
+	.navbar-nav{display: none}
+	
 	#map{
 		width:100%;
 		height:auto;
