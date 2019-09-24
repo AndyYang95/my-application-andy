@@ -460,9 +460,8 @@ div.desc {
 
 
 /* Global Styling */
-html, body {margin:0px; padding: 0px;}
 
-nav {
+navx {
     background-color: #34495e;
     height: 80px;
         position: fixed;
@@ -516,7 +515,7 @@ nav {
 .bg-six {background-image: url(http://blog.whitepages.com/wp-content/uploads/2015/04/san-franc.jpg);}
 
 
-a {
+a1 {
     display: none;
     font-size: 35px;
     color: #ffffff !important;
