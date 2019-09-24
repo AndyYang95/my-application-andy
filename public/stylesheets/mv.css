@@ -348,12 +348,13 @@ body{
 	#paper{font-size: 80px}
 	#scissors{font-size: 80px}
 	#rock{font-size: 80px}
-	
-	
-	
 	.intro{
 		width:100%;
 		height:350px;
+	}
+	
+	.intro .inner .content h2{
+		font-size: 0.5rem;
 	}
 }
 
