@@ -476,11 +476,22 @@ div.desc {
 
 
 
-.slides {
+.slides1 {
     padding: 0;
-    width: 609px;
+	float:left;
+    width: 500px;
     height: 420px;
-    display: block;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+	margin-bottom: 2rem;
+}
+.slides2 {
+	float:right;
+    padding: 0;
+    width: 500px;
+    height: 420px;
+    display: inline-block;
     margin: 0 auto;
     position: relative;
 	margin-bottom: 2rem;
