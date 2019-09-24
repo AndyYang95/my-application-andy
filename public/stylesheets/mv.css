@@ -35,10 +35,6 @@ body{
 
 
 
-
-
-
-
 .container{
     max-width: 1100px;
     margin: auto;
@@ -228,7 +224,7 @@ body{
 
 .intro .inner{
 	display: table-cell;
-	vertical-align:middle;
+	vertical-align: -30px;
 	width: 100%;
 	max-width: none;
 }
