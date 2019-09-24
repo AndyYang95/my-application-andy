@@ -222,7 +222,7 @@ body{
 	margin: auto;
 	background: url("/house.jpg") no-repeat 50% 50%;
 	display: table;
-	top: 0;
+	
 	background-size:cover;
 }
 
