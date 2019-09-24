@@ -239,7 +239,7 @@ body{
     color: #f4f4f4;
 	font-size: 5rem;
 	font-weight: bold;
-	text-shadow: 0px 0px 300px #000;
+	text-shadow: 2px 2px 8px #000;
 }
 .intro .inner .content h2{
     margin-bottom: 0.01rem;
