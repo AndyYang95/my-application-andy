@@ -234,16 +234,16 @@ body{
 	text-align: center;
 }
 .intro .inner .content h1{
-    margin-bottom: 0.01rem;
+    margin-bottom: 1px;
 	margin-top: 1rem;
     color: #f4f4f4;
-	font-size: 4.8rem;
+	font-size: 5rem;
 	font-weight: bold;
 	text-shadow: 0px 0px 300px #000;
 }
 .intro .inner .content h2{
     margin-bottom: 0.01rem;
-	font-size: 2rem;
+	font-size: 1rem;
 	font-weight: bold;
 	text-shadow: 0px 0px 300px #000;
 }
