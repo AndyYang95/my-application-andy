@@ -356,7 +356,8 @@ input[type=button]:hover {
 
 @media(max-width: 668px){
 	#map{
-		width:50%;
+		width:100%;
+		height:auto;
 		float:left;
 		}
 }
