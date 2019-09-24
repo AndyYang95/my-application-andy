@@ -35,14 +35,6 @@ body{
 
 
 
-.intro{
-	height:500px;
-	width:100%;
-	margin: auto;
-	margin-top:0;
-	background-image: url('/house.jpg');
-}
-
 
 
 
@@ -226,6 +218,32 @@ body{
     width: 100%;
 	margin-top:0px;
 }
+
+
+
+.intro{
+	height: 100%;
+	width:100%;
+	margin: auto;
+	background: url("/house.jpg") no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size:cover;
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: auto;
+}
+
+
 
 
 .projects{
