@@ -195,8 +195,8 @@
 		var body=  ""+message+ "%0A%0A%0A";
 		body+= "From: "+ first_name+" "+last_name+"%0A";
 		body+= "Email: "+e;
-		console.log(sbj);
-		if(sbj==null){mailTo.href="mailto:"+to+"?subject="+"[No Subject]"+"&body="+body;}
+		console.log(typeof(sbj));
+		if(sbj==null){mailTo.href="mailto:"+to+"?subject="+"[No Subject]"+"&body="+body;  mailTo.click();}
 		mailTo.href="mailto:"+to+"?subject="+sbj+"&body="+body;
         mailTo.click();
 	}
