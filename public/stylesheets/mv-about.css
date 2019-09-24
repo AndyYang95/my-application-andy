@@ -215,8 +215,9 @@ body{
 	margin-top: 0rem;
 	margin-bottom:0rem;
 	padding-top: 2rem;
+	padding-left: 0.1rem;
+	padding-right: 0.1rem;
 	text-align: left;
-	background-color: #FFF5E4;
 	max-width: 2000px;
 }
 
