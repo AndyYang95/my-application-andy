@@ -59,7 +59,7 @@ body{
 	margin-bottom: 5rem !important;
 }
 
-#top{
+.header .top{
     margin-bottom: 0.5rem !important;
     color: #FF7733 !important;
 	font-size: 3rem !important; 
@@ -69,7 +69,6 @@ body{
 
 .header h2{
 	font-weight: normal;
-	font-weight: bold !important;
 }
 
 .score{
