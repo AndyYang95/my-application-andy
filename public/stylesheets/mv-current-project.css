@@ -76,7 +76,13 @@ body{
 .row .site{
 	margin-bottom:5px;
 	height: 100px;
+	float: left;
+	display: block;
+	text-align:left;
+	font-size: 20px;
+	padding: 14px 18px;
 }
+
 
 
 
