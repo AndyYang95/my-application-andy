@@ -71,7 +71,9 @@ body{
 
 
 
-
+.row {
+	margin-bottom:1.5rem !important;
+}
 
 .row .site{
 	height: 180px;
