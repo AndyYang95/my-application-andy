@@ -72,7 +72,7 @@ body{
 
 
 .row {
-	margin-bottom:1.5rem !important;
+	margin-bottom:3rem !important;
 }
 
 .row .site{
@@ -346,7 +346,9 @@ h2{
     .open-slide{display: none}
 }
 
-
+@media (max-width: 500px){
+	#top{font-size: 0.4rem !important}
+}
 
 
 
