@@ -74,13 +74,13 @@ body{
 
 
 .row .site{
-	height: 150px;
+	height: 180px;
 	width:30%;
 	float: left;
 	display: inline-block;
 	text-align:left;
-	font-size: 20px;
-	margin-left: 5px;
+	font-size: 30px;
+	margin-left: 8px;
 }
 
 
