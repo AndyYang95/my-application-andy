@@ -84,7 +84,7 @@ body{
 	font-size: 30px;
 	margin-left: 8px;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/architecture-1477041_1280.jpg);
-    background-size: auto;
+    background-size: 100% 100%;
 }
 /* Media Queries */
 @media screen and (max-width: 780px) {
