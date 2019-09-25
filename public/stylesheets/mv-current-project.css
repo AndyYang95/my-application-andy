@@ -72,12 +72,12 @@ body{
 
 
 .row {
-	margin-bottom:3rem !important;
+	margin-bottom: 3rem !important;
 }
 
 .row .site{
-	height: 180px;
-	width:32%;
+	height: 190px;
+	width: 32%;
 	float: left;
 	display: inline-block;
 	text-align:center;
@@ -90,7 +90,10 @@ body{
 @media screen and (max-width: 780px) {
     .row .site {width: 100%; margin: 8px 0px}
 }
-
+.row .site h4{
+    color: white;
+    margin-top: 175px;
+}
 
 
 
