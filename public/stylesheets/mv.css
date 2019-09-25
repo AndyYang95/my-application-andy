@@ -299,14 +299,10 @@ body{
 	margin-bottom:2rem;
 }
 
-
 .footer .contact-btn:hover{
   background-color: #F4F4F4;
   color: black;
 }
-
-
-
 .back-to-home{
 	overflow: hidden;
 	height: 80px;

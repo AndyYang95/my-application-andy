@@ -249,6 +249,11 @@ h2{
 
 
 
+
+
+
+
+
 .footer{
     background-color: #FFA533;
     overflow: hidden;
@@ -281,14 +286,10 @@ h2{
 	margin-bottom:2rem;
 }
 
-
 .footer .contact-btn:hover{
   background-color: #F4F4F4;
   color: black;
 }
-
-
-
 .back-to-home{
 	overflow: hidden;
 	height: 80px;
@@ -316,6 +317,8 @@ h2{
 	color: black;
 	font-weight: bold;
 }
+
+
 
 
 
