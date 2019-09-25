@@ -75,8 +75,9 @@ body{
 
 .row .site{
 	height: 100px;
+	width:33.333%;
 	float: left;
-	display: block;
+	display: inline-block;
 	text-align:left;
 	font-size: 20px;
 	margin-left:3px;
