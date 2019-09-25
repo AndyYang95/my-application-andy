@@ -67,9 +67,9 @@ body{
 
 
 
-.header h2{
+.header.h2{
 	font-weight: normal;
-	
+	font-weight: bold;
 }
 
 .score{
