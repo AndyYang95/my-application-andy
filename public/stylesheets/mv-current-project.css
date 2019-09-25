@@ -337,7 +337,7 @@ h2{
 	#scissors{font-size: 80px}
 	#rock{font-size: 80px}
 	
-	#top{font-size: 2rem !important}
+	#top{font-size: 2.6rem !important}
 }
 
 @media(min-width: 668px){
