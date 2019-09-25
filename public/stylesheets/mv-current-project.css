@@ -92,7 +92,7 @@ body{
 }
 .row .site h4{
     color: white;
-    margin-top: 175px;
+    vertical-align: bottom;
 }
 
 
