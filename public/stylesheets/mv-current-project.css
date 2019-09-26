@@ -88,7 +88,7 @@ body{
 }
 /* Media Queries */
 @media screen and (max-width: 780px) {
-    .row .site {width: 100%; margin: 8px 0px; height: 250px}
+    .row .site {width: 100%; margin: 8px 0px; height: 220px}
 }
 .row .site h4{
     color: white;
