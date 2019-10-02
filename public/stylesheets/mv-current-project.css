@@ -54,15 +54,15 @@ body{
 }
 
 .header{
-    margin: 1.2rem 0 !important;
-    text-align: left !important;
-	margin-bottom: 1.5rem !important;
+    margin: 1.2rem 0 ;
+    text-align: left;
+	margin-bottom: 1.5rem;
 }
 
 #top{
-    margin-bottom: 0.5rem !important;
-    color: #FF7733 !important;
-	font-size: 3rem !important; 
+    margin-bottom: 0.5rem;
+    color: #FF7733;
+	font-size: 3rem; 
 }
 
 .header h2{
