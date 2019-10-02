@@ -258,9 +258,10 @@ h2{
 }
 
 
-.test{
+.row2{
 	margin-top:3rem !important; 
-	text-align:left;
+    text-align:left;
+    background-color: #28a745;
 }
 
 .projects-title{
