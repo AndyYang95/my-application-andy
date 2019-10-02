@@ -81,7 +81,6 @@ body{
 	float: left;
 	display: inline-block;
 	text-align:center;
-	font-size: 20px;
 	margin-left: 8px;
     background-image: url(https://cdn.pixabay.com/photo/2016/06/24/10/47/architecture-1477041_1280.jpg);
     background-size: 100% 100%;
@@ -90,9 +89,8 @@ body{
 @media screen and (max-width: 780px) {
     .row .site {width: 100%; margin: 8px 0px; height: 220px}
 }
-.row .site h4{
-    color: white;
-    margin-bottom:1px;
+.row .site .des h4{
+    color: #FF8633;
 }
 
 
