@@ -259,9 +259,9 @@ h2{
 
 
 .row2{
-	margin-top:0rem !important; 
+	margin-top:1rem !important; 
     text-align:left;
-    background-color: #FFA533;
+    border: 1px, solid, #333;
 }
 
 .projects-title{
