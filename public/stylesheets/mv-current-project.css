@@ -259,12 +259,13 @@ h2{
 
 
 .row2{
-	margin-top:1rem !important; 
+    margin-top:1rem !important; 
+    margin-bottom: 1.5rem;
     text-align:left;
     border: 1px solid darkblue;
 }
 
-.projects-title{
+.row3{
 	text-align: left;
 }
 
