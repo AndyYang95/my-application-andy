@@ -89,6 +89,15 @@ body{
 @media screen and (max-width: 780px) {
     .row .site {width: 100%; margin: 8px 0px; height: 220px}
 }
+
+.row .des{
+    height:25px;
+    width: 32%;
+    float:left;
+    background-color: #333;
+    color: #F4F4F4;
+    margin-left: 8px;
+}
 .row .site h4{
     color: white;
 }
