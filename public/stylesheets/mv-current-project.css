@@ -90,8 +90,8 @@ body{
     .row .site {width: 100%; margin: 8px 0px; height: 220px}
 }
 
-.row .des{
-    height:25px;
+.row .site .des{
+    height:28px;
     width: 32%;
     float:left;
     background-color: #333;
