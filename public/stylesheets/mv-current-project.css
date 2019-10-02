@@ -57,7 +57,6 @@ body{
     margin: 1.2rem 0 ;
     text-align: left;
     margin-bottom: 1.3rem;
-    border: 1px solid red;
 }
 
 #top{
@@ -74,7 +73,6 @@ body{
 
 .row {
     overflow: hidden;
-    background-color: darkkhaki;
 }
 
 .row .site{
@@ -264,7 +262,6 @@ h2{
     margin-top:1rem !important; 
     margin-bottom: 1.5rem;
     text-align:left;
-    border: 1px solid darkblue;
 }
 
 .row3{
