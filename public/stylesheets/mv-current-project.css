@@ -89,8 +89,8 @@ body{
 @media screen and (max-width: 780px) {
     .row .site {width: 100%; margin: 8px 0px; height: 220px}
 }
-.row .site .des h4{
-    color: #FF8633;
+.row .site h4{
+    color: white;
 }
 
 
