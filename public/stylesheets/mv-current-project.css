@@ -259,7 +259,7 @@ h2{
 
 
 .test{
-	margin-top:2.5rem;
+	margin-top:3rem !important; 
 	text-align:left;
 }
 
