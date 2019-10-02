@@ -56,7 +56,8 @@ body{
 .header{
     margin: 1.2rem 0 ;
     text-align: left;
-	margin-bottom: 1.3rem;
+    margin-bottom: 1.3rem;
+    border: 1px solid red;
 }
 
 #top{
