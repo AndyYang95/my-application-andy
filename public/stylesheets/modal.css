@@ -17,7 +17,7 @@
     background: white;
     text-align: center;
     margin: 8% auto;
-    width: 70%;
+    width: 90%;
     height: 90%;
     border-radius: 10px;
     padding: 2.5rem;
@@ -30,12 +30,10 @@
 .modal-content h1{
     margin-bottom: 1rem;
 }
-.modal-content h2{
-    margin-bottom: 1rem;
-}
+
 
 .modal-content p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
 }
 
