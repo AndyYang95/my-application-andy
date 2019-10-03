@@ -62,17 +62,17 @@
         <div class="row">
                 <!--Images-->
                 <a><div  class="site">
-                        <div id="des_x" class="des">
+                        <div class="des">
                                 <h4>Project A</h4>
                             </div>
                 </div>
                 <div  class="site">
-                        <div id="des_x" class="des">
+                        <div  class="des">
                                 <h4>Project B</h4>
                             </div>
                 </div>
                 <div  class="site">
-                        <div id="des_x" class="des">
+                        <div class="des">
                                 <h4>Project C</h4>
                             </div>
                 </div>
@@ -160,10 +160,10 @@
     
     $(function() {
         $('.site').hover(function() {
-        $('#des_x').css('background-color', 'yellow');
+        $('.des').css('color', 'yellow');
         }, function() {
     // on mouseout, reset the background colour
-        $('#des_x').css('background-color', '');
+        $('.des').css('color', '');
   });
 });
 
