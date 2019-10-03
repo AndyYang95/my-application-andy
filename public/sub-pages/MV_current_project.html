@@ -61,17 +61,17 @@
 
         <div class="row">
                 <!--Images-->
-                <a><div  class="site">
+                <a><div  id="site1" class="site">
                         <div class="des">
                                 <h4>Project A</h4>
                             </div>
                 </div>
-                <div  class="site">
+                <div  id="site2" class="site">
                         <div  class="des">
                                 <h4>Project B</h4>
                             </div>
                 </div>
-                <div  class="site">
+                <div  id="site3" class="site">
                         <div class="des">
                                 <h4>Project C</h4>
                             </div>
@@ -160,12 +160,23 @@
     
     $(function() {
         $('.site').hover(function() {
-        $('.des').css('background-color', 'orange');
+            $('.des').css('background-color', 'orange');
         }, function() {
-    // on mouseout, reset the background colour
-        $('.des').css('background-color', '');
+            // on mouseout, reset the background colour
+            $('.des').css('background-color', '');
   });
 });
+    $(document).ready(function(){
+        $("#site1").click(function(){
+            modal.style.display=' block';
+        });
+    });
+
+
+
+
+
+
 
 
     
