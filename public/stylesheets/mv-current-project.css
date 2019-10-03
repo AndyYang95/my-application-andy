@@ -86,13 +86,13 @@ body{
     background-size: 100% 100%;
 }
 
-.row .site:hover+.row .site .des{
+#site_x:hover + #des_x{
     opacity: 0.9;
     background-color: #FFA533;
 }
 /* Media Queries */
 @media screen and (max-width: 780px) {
-    .row .site {width: 100%; margin: 8px 0px; height: 220px}
+    .row .site {width: 100%; margin: 8px 0px; height: 210px}
 }
 
 .row .site .des{
