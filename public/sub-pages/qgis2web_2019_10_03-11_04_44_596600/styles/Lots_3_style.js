@@ -28,13 +28,15 @@ var style_Lots_3 = function(feature, resolution){
                               bufferWidth)
     })];
 
+
+    //Highlight color: RED when selected/hovered
     var highlight_style = [ 
         new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}),fill: new ol.style.Fill({color: 'rgba(255,0,0,0.7)'}),
+        stroke: new ol.style.Stroke({color: 'yellow', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}),fill: new ol.style.Fill({color: 'rgba(255,0,0,0.7)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
     })];
 
-    return highlight_style;
+    return style;
 };
